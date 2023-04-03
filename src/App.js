@@ -1,12 +1,11 @@
-import Products from "./components/Products";
+import { useState, useEffect } from "react";
+import Contacts from "./components/Contacts";
 import "./App.css";
-import Footer from "./components/Products/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Products />
-      <Footer />
+      <Contacts />
     </div>
   );
 }
